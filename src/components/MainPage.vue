@@ -8,10 +8,12 @@
     </li>
   </ul>
 </template>
+
 <script>
 import axios from "axios";
+
 export default {
-  name: "App",
+  name: "MainPage",
   data() {
     return {
       items: [],
@@ -28,12 +30,5 @@ export default {
 };
 </script>
 <style>
-#app {
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-li {
-  list-style: none;
-}
+
 </style>
